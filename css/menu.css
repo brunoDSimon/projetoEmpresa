@@ -1,110 +1,28 @@
-.menu{
-    width: 100%;
-    height: 50px;
-    background-color:  #222;
-    font-family: Arial, Helvetica, sans-serif;
+body{
+    background: #eee;
+}
+span{
+    font-size:15px;
+}
+a{
+  text-decoration:none; 
+  color: #0062cc;
+  /* border-bottom:2px solid #0062cc; */
+}
+.box{
+    padding:60px 0px;
 }
 
-
-.menu ul{
-
-    list-style: none;
-    position: relative;
+.box-part{
+    background:#FFF;
+    border-radius: 1%;
+    padding:60px 10px;
+    margin:30px 0px;
+}
+.text{
+    margin:20px 0px;
 }
 
-.menu ul li{
-    width: 150px;
-    float: left;
-}
-
-
-.menu a{
-    padding: 15px;
-    display: block;
-    text-decoration: none;
-    text-align: center;
-    background-color:  #222;
-    color: #fff;
-
-}
-
-
-.menu ul ul{
-    position: absolute;
-    visibility: hidden;
-
-}
-
-.menu ul li:hover ul{
-    visibility: visible;
-
-}
-
-.menu a:hover{
-    background-color: #f4f4f4;
-    color: #555;
-
-
-}
-.menu ul ul li{
-    float: none;
-    border-bottom: solid 1px #ccc;
-}
-
-.menu ul ul li a{
-    background-color: #006699;
-}
-
-label[for="bt_menu"]{
-padding: 5px;
-background-color: #222;
-color: #fff;
-font-family: Arial, Helvetica, sans-serif;
-text-align: center;
-font-size: 30px;
-cursor: pointer;
-width: 50px;
-height: 50px;
-}
-
-#bt_menu{
-    display: none;
-}
-
-label[for="bt_menu"]{
-    display: none;
-}
-
-
-@media(max-width: 800px){
-    label[for="bt_menu"]{
-        display: block;
-    }
-
-    #bt_menu:checked ~ .menu{
-        margin-left: 0;
-    }
-    .menu{
-        margin-top: 5px;
-        margin-left: -100%;
-        transition: all .4s;
-    }
-
-    .menu ul li{
-        width: 100%;
-        float: none;
-    }
-    menu ul ul{
-        position: static;
-        overflow: hidden;
-        max-height: 0;
-        transition: all 4s;
-
-    }
-
-
-    .menu ul li:hover ul{
-        height: auto;
-        max-height: 200px;
-    }
+.fa{
+     color:#4183D7;
 }
