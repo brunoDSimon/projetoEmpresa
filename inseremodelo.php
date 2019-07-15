@@ -58,6 +58,7 @@
 				</div>			
 				
 		</div>
+		
 		<!-- Footer -->
 	<footer class="page-footer font-small blue">
 
